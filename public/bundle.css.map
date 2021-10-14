@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  let MOTD = \"Have a fantastic Sun Shiny day\";\n  let name = \"\";\n  let img1 = \"https://corgiscorgiscorgis.github.io/hewwo.gif\";\n</script>\n\n<style>\n  .MOTD {\n    font-family: \"Comic Sans MS\";\n    text-align: center;\n  }\n  .corgibox {\n    width: 250px;\n    height: 200px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    width: 50%;\n    height: 50%;\n  }\n  main {\n    background-color: purple;\n  }\n</style>\n\n<main>\n  &nbsp;\n  <input bind:value={name} placeholder=\"enter your name\">\n\t<h1 class=\"MOTD\"> {MOTD}, {name}! </h1>\n  <img class=\"corgibox\" src=\"{img1}\" alt=\"corgi popping out of amazon box\" > \n  &nbsp;\n</main>"
+  ],
+  "names": [],
+  "mappings": "AAOE,KAAK,cAAC,CAAC,AACL,WAAW,CAAE,eAAe,CAC5B,UAAU,CAAE,MAAM,AACpB,CAAC,AACD,SAAS,cAAC,CAAC,AACT,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,OAAO,CAAE,KAAK,CACd,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,IAAI,CAClB,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,GAAG,AACb,CAAC,AACD,IAAI,cAAC,CAAC,AACJ,gBAAgB,CAAE,MAAM,AAC1B,CAAC"
+}
